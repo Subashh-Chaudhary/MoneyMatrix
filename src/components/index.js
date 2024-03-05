@@ -1,3 +1,4 @@
 import InputBox from "./InputBox";
+import CurrencyDetails from "./CurrencyDetails";
 
-export {InputBox};
+export { InputBox, CurrencyDetails };

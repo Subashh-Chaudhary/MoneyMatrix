@@ -13,7 +13,7 @@ function useCurrencyInfo(currency) {
         const date = new Date();
         const currentDate = `${date.getFullYear()}.${
           date.getMonth() + 1
-        }.${date.getDate() - 1}`;
+        }.${date.getDate()}`;
         
         const response = await fetch(
           `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@${currentDate}/v1/currencies/${currency}.json`
