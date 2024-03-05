@@ -11,6 +11,11 @@ function InputBox({
   currencyDisable = false,
 }) {
   const amountInputId = useId();
+
+  const handleFocus = () => {
+    onAmountChange("");
+  };
+
   return (
     <div className={`bg-white p-3 rounded-lg text-sm md:text-xl flex `}>
       <div className="w-1/2">
@@ -30,6 +35,7 @@ function InputBox({
           onChange={(e) =>
             onAmountChange && onAmountChange(Number(e.target.value))
           }
+          onFocus={handleFocus}
         />
       </div>
       <div className="w-1/2 flex flex-wrap justify-end text-right">
