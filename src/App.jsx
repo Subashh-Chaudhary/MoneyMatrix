@@ -53,7 +53,8 @@ function App() {
   };
 
   const convert = () => {
-    setConvertedAmount(amount * rate[to]);
+    const res = amount * rate[to];
+    setConvertedAmount(res.toFixed(2));
   };
 
   const handleSearchSubmit = (event) => {
