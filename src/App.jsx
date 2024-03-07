@@ -35,7 +35,7 @@ function App() {
 
     setCurrencyCode(code);
     setCurrency(currentCountry);
-  }, [currency]);
+  }, [country]);
 
   const countries = CountryData;
   const countryOptions = Object.values(countries).map(
