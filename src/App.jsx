@@ -72,7 +72,7 @@ function App() {
       >
         <img
           className="md:w-96 w-60 bg-slate-800/20 -ml-6"
-          src="../public/cover-removebg-preview.png"
+          src="../public/logo.png"
           alt="logo"
         />
       </a>
