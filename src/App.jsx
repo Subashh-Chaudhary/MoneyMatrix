@@ -3,6 +3,7 @@ import { InputBox, CurrencyDetails } from "./components";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import CountryData from "./currencyData";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import logo from "../public/logo.png"
 
 function App() {
   const [amount, setAmount] = useState(0);
@@ -72,7 +73,7 @@ function App() {
       >
         <img
           className="md:w-96 w-60 bg-slate-800/20 -ml-6"
-          src="../public/logo.png"
+          src={logo}
           alt="logo"
         />
       </a>
