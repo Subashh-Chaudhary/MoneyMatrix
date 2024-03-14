@@ -68,14 +68,16 @@ function App() {
       <a
         href="#"
         onClick={() => window.location.reload()}
-        className="absolute top-6 md:top-3  left-3"
+        className="absolute top-6 md:top-3 left-4  md:left-3"
       >
-        <h1 className="font-extrabold text-blue-100 font-archivo text-2xl lg:text-4xl self-start">
-          MoneyMatrix
-        </h1>
+        <img
+          className="md:w-96 w-60 bg-slate-800/20 -ml-6"
+          src="../public/cover-removebg-preview.png"
+          alt="logo"
+        />
       </a>
       <div className="w-full">
-        <div className=" sm:w-1/2 h-auto mx-2 sm:mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+        <div className=" sm:w-1/2 h-auto mx-3 sm:mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <div className="mb-3 ">
             <p className="text-md lg:text-xl text-white font-extrabold uppercase">
               Conversion Date : {date}
@@ -138,7 +140,7 @@ function App() {
         href="https://github.com/Subashh-Chaudhary/MoneyMatrix"
         target="_blank"
       >
-        <div className="text-blue-100 absolute bottom-20 right-4 lg:bottom-10 lg:right-12 flex gap-2 items-center">
+        <div className="text-blue-100 absolute bottom-16 right-4 lg:bottom-10 lg:right-12 flex gap-2 items-center">
           <GitHubIcon fontSize="large" />
           <p className="lg:text-xl  text-[13px] md:text-lg text-blue-100 font-archivo font-extrabold">
             GitHub Repository
