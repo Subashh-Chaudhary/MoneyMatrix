@@ -1,6 +1,9 @@
 <h1>MoneyMatrix - Connecting Currencies, Simplifying Transactions</h1>
 <h2>Currency Converter Site</h2>
 <br>
+
+![Screenshot 2024-04-12 at 16-36-07 CurrencyConverter](https://github.com/Subashh-Chaudhary/MoneyMatrix/assets/147568882/61a757f1-9d93-4cf6-8ebb-1b2d2aba7c20)
+
   <p>Welcome to MoneyMatrix, a beginner-friendly currency converter site built using React. This project aims to provide updated currency conversion rates for more than 150 countries, along with their respective currency codes.</p>
 <br>
   <h2>Technologies Used:</h2>
